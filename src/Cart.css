@@ -26,3 +26,33 @@
     border-color: #a88734 #9c7e31 #846a29;
     color:#111;
 }
+
+/* Media Query */
+
+@media screen and (max-width:768px) {
+    .cart{
+        flex-direction: column;
+    }
+    .cart_empty{
+        margin-top: 5px;
+    }
+  .cart_empty h2{
+      font-size: 20px;
+  }
+  .cart_title{
+    font-size: 20px;
+    margin-top: -12px;
+  }
+  .cart_right small ,.cart_right button{
+      display: none;
+  }
+  .cart_left{
+      order: 1;
+  }
+  .cart_right{
+      order: 0;
+      margin-top: -10px;
+      margin-bottom: 8px;
+  }
+    
+}

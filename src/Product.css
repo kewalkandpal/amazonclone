@@ -36,3 +36,16 @@
       color: #111;
       cursor: pointer;
     }
+
+    /* Media query */
+    
+    @media screen and (max-width:768px) {
+        .product{
+            margin: 5px;
+            width:80%;
+            min-width: 50px;
+          }
+          .product > img{
+            max-height: 150px;
+        }
+    }

@@ -18,3 +18,15 @@
     margin-left: 5px;
     margin-right: 5px;
   }
+
+  /* Media query */
+
+  @media screen and (max-width:768px) {
+    .home_row{
+      flex-direction: column;
+      align-items: center;
+    }
+    .home_image{
+      margin-bottom: 0px;
+    }
+  }

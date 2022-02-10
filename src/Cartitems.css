@@ -26,3 +26,21 @@
     margin-top: 10px;
     cursor: pointer;
 }
+
+/* Media Query */
+
+@media screen and (max-width:768px) {
+    .cart_items{
+        flex-direction: column;
+        margin-top: 12px;
+        box-shadow: 1px 4px 5px rgba(0,0,0,0.5);
+    }
+    .cart_item_img{
+        width: 150px;
+        height:150px;
+    }
+    .cartItem_title{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
